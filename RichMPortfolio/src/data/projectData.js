@@ -32,8 +32,8 @@ const projectData = [
     ],
     description:
       "News website for all of Northcoders's latest stories. Users can browse and filter articles, leave reviews, vote on what they like, and post their own stories too",
-    github: "https://github.com/RichRavenM/snacktrack",
-    website: "https://snacktrack.vercel.app/",
+    github: "https://github.com/RichRavenM/fe-nc-news",
+    website: "https://richs-northcoders-news.netlify.app/",
     image: "https://i.imgur.com/iIPqYud.png",
   },
   {
