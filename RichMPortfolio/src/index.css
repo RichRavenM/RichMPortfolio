@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,400;1,300&display=swap");
+
+body {
+  background-color: rgb(250, 250, 202);
+  display: flex;
+
+  justify-content: center;
+}
+
+#root {
+  width: 90%;
+  border: 3px solid black;
+  border-radius: 3%;
+  padding: 10px 20px;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+.Header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 100px;
+}
+
+.intro {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+#profile-pic {
+  width: 300px;
+  border-radius: 40%;
+}
+
+.personal-info {
+  text-align: center;
+}
+
+.profile-link {
+  width: 80px;
+  padding-bottom: 10px;
+}
+
+.techLogo {
+  width: 150px;
+  height: 150px;
+}
