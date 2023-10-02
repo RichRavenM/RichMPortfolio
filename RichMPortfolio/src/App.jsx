@@ -1,17 +1,26 @@
-import { useState } from "react";
 import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
 import "./App.css";
 import Header from "./components/Header";
 import Tech from "./components/Tech";
-
+import Projects from "./components/Projects";
+import { useState, useRef, useEffect } from "react";
+import FadeInSection from "./components/FadeInSection";
 function App() {
-  const [count, setCount] = useState(0);
+  const [isIntersecting, setIsIntersecting] = useState(false);
+  const ref = useRef(null);
 
   return (
     <div className="App">
-      <Header />
-      <Tech />
+      <FadeInSection>
+        <Header />
+      </FadeInSection>
+      <FadeInSection>
+        <Tech />
+      </FadeInSection>
+      <FadeInSection>
+        <Projects />
+      </FadeInSection>
     </div>
   );
 }

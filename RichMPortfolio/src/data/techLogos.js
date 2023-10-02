@@ -1,6 +1,6 @@
 const techLogos = [
   {
-    name: "JavaSctipt",
+    name: "JavaScript",
     url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
   },
   {
@@ -36,7 +36,7 @@ const techLogos = [
     url: "https://www.strongdm.com/hubfs/21126185/Technology%20Images/603c5eb831820c3ce6a8f057_603a1586fa052d17fc2a6929_MongoDBAtlas.png",
   },
   {
-    name: "CLoudinary",
+    name: "Cloudinary",
     url: "https://cloudinary-marketing-res.cloudinary.com/image/upload/w_320,h_223,c_pad,b_auto:predominant,fl_preserve_transparency/v1672871595/stacked_logo_blue.jpg?_s=public-apps",
   },
 ];
